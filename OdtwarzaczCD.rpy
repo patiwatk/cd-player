@@ -1,8 +1,5 @@
 I-Logix-RPY-Archive version 8.6.0 Java 2071527
 { IProject 
-	- _ownerHandle = { IHandle 
-		- _m2Class = "";
-	}
 	- _id = GUID 85978991-ebe3-41ba-b59c-ca5f340164d0;
 	- _myState = 8192;
 	- _name = "OdtwarzaczCD";

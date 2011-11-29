@@ -5,8 +5,64 @@ I-Logix-RPY-Archive version 8.6.0 * 2071527
 	}
 	- isLoadOnDemand = 0;
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 2;
+		- size = 3;
 		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 88;
+				- m_nTop = 116;
+				- m_nRight = 1261;
+				- m_nBottom = 787;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "Controller";
+				- _name = "StatechartDiagram";
+				- _id = GUID 2f873d5b-bb72-41ff-8dc0-80701c004d05;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1144 616 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -30;
+				- m_nLeft = 110;
+				- m_nTop = 145;
+				- m_nRight = 1371;
+				- m_nBottom = 610;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "DiagnosticSet";
+				- _name = "StatechartDiagram";
+				- _id = GUID 0f1d242f-c157-4259-bff5-fcc51d74d0bd;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1232 410 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
@@ -31,40 +87,12 @@ I-Logix-RPY-Archive version 8.6.0 * 2071527
 				- _id = GUID 2d3dc4d2-f34d-4b35-b35d-5ec96bf9a4e0;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 754 411 ;
+			- _DownRight = 753 349 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 0;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -4;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 0;
-				- m_nTop = 0;
-				- m_nRight = 687;
-				- m_nBottom = 316;
-			}
-			- _wasOpenedOnCloseProject = 0;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IComponentDiagram";
-				- _filename = "DefaultComponent.cmp";
-				- _subsystem = "";
-				- _class = "";
-				- _name = "DefaultComponent\\componentdiagram_0";
-				- _id = GUID e3ef01f2-9ac9-40c4-9c2f-4f84178b5a28;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 658 261 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 0;
+			- m_nDiagramIndex = 2;
 		}
 	}
-	- _fullName = "C:\\Program Files\\IBM\\Rational\\Rhapsody\\7.6\\OdtwarzaczCD\\OdtwarzaczCD";
+	- _fullName = "Z:\\STUDIA\\SCR\\CD-PLAYER\\OdtwarzaczCD";
 	- m_SearchScopeList = { IRPYRawContainer 
 		- size = 0;
 	}

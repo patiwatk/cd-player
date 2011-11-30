@@ -1,4 +1,5 @@
 [Op Calls]
 [Events]
+controller->GEN(playorpause())`Controller
 [Active Breakpoints]
 [Inactive Breakpoints]

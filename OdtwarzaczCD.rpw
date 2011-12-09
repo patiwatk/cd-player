@@ -5,7 +5,7 @@ I-Logix-RPY-Archive version 8.6.0 * 2071527
 	}
 	- isLoadOnDemand = 0;
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 8;
+		- size = 6;
 		- value = 
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -33,13 +33,13 @@ I-Logix-RPY-Archive version 8.6.0 * 2071527
 			- _UpLeft = 0 0 ;
 			- _DownRight = 775 244 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 3;
+			- m_nDiagramIndex = 2;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -4;
@@ -58,16 +58,16 @@ I-Logix-RPY-Archive version 8.6.0 * 2071527
 				- _name = "StatechartDiagram";
 				- _id = GUID 2f873d5b-bb72-41ff-8dc0-80701c004d05;
 			}
-			- _UpLeft = 489 -5 ;
-			- _DownRight = 1382 418 ;
+			- _UpLeft = 490 -5 ;
+			- _DownRight = 986 151 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 4;
+			- m_nDiagramIndex = 3;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -4;
@@ -86,38 +86,10 @@ I-Logix-RPY-Archive version 8.6.0 * 2071527
 				- _name = "GUI";
 				- _id = GUID df3e00da-dfef-4495-a6fe-7caa87981dde;
 			}
-			- _UpLeft = 121 60 ;
-			- _DownRight = 1037 338 ;
+			- _UpLeft = 0 50 ;
+			- _DownRight = 1602 982 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 6;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -4;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 44;
-				- m_nTop = 58;
-				- m_nRight = 870;
-				- m_nBottom = 355;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IStateChartDiagram";
-				- _filename = "Default.sbs";
-				- _subsystem = "Default";
-				- _class = "Laser";
-				- _name = "StatechartDiagram";
-				- _id = GUID 45178975-c620-46a9-a5fa-30ee508a832a;
-			}
-			- _UpLeft = 0 110 ;
-			- _DownRight = 797 352 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 2;
+			- m_nDiagramIndex = 5;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -152,34 +124,6 @@ I-Logix-RPY-Archive version 8.6.0 * 2071527
 				- m_nLength = 44;
 				- m_nFlags = 0;
 				- m_showCmd = 1;
-				- m_ptMinPositionX = 0;
-				- m_ptMinPositionY = 382;
-				- m_ptMaxPositionX = -4;
-				- m_ptMaxPositionY = -30;
-				- m_nLeft = 32;
-				- m_nTop = 17;
-				- m_nRight = 1293;
-				- m_nBottom = 505;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IStateChartDiagram";
-				- _filename = "Default.sbs";
-				- _subsystem = "Default";
-				- _class = "Tray";
-				- _name = "StatechartDiagram";
-				- _id = GUID 40b5107e-58a7-484c-b482-9b2b14c808fa;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 1433 504 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 7;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -4;
@@ -198,10 +142,10 @@ I-Logix-RPY-Archive version 8.6.0 * 2071527
 				- _name = "StatechartDiagram";
 				- _id = GUID 40b5107e-58a7-484c-b482-9b2b14c808fa;
 			}
-			- _UpLeft = 0 70 ;
-			- _DownRight = 797 312 ;
+			- _UpLeft = 0 0 ;
+			- _DownRight = 797 242 ;
 			- _instanceName = "tray";
-			- m_nDiagramIndex = 5;
+			- m_nDiagramIndex = 4;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -232,7 +176,7 @@ I-Logix-RPY-Archive version 8.6.0 * 2071527
 			- m_nDiagramIndex = 0;
 		}
 	}
-	- _fullName = "C:\\Documents and Settings\\Tomasz\\Pulpit\\scr\\cd-player\\OdtwarzaczCD";
+	- _fullName = "Z:\\STUDIA\\SCR\\CD-PLAYER\\OdtwarzaczCD";
 	- m_SearchScopeList = { IRPYRawContainer 
 		- size = 0;
 	}
